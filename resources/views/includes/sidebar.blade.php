@@ -30,11 +30,11 @@
                         <a href="{{ route('transaksi/create') }}"> <i class="menu-icon fa fa-plus"></i>Tambah Transaksi</a>
                     </li>
 
-                    {{-- <li class="menu-title">Laporan</li>
+                    <li class="menu-title">Laporan</li>
                     <li class="">
-                        <a href=""> <i class="menu-icon fa fa-list"></i>Lihat Transaksi</a>
+                        <a href="{{ route('laporan') }}"> <i class="menu-icon fa fa-list"></i>Laporan</a>
 
-                    </li> --}}
+                    </li>
 
                     <li class="">
                     </li>

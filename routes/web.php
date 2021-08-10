@@ -52,3 +52,7 @@ Route::prefix('transaksi')->group(function() {
     Route::post('update/{id}', 'TransaksiController@update')->name('transaksi/update');
     Route::get('delete/{id}', 'TransaksiController@destroy')->name('transaksi/destroy');
 });
+
+Route::prefix('laporan')->group(function() {
+    Route::get('/', 'LaporanController@index')->name('laporan');
+});
